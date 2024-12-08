@@ -1,9 +1,26 @@
 {
-  "name": "your-project-name",
+  "name": "ci-cdbackup",
   "version": "1.0.0",
+  "description": "Proyek sederhana untuk demonstrasi CI/CD dengan GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest",
+    "build": "echo 'Build step not implemented yet!'",
+    "lint": "eslint .",
+    "deploy": "echo 'Deploy step not implemented yet!'"
   },
-  "dependencies": {}
+  "keywords": ["CI/CD", "GitHub Actions", "Backup"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.51.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
